@@ -5,7 +5,6 @@ def subString(Str,n):
             j = i + Len - 1
             l.append(Str[i:j+1])
     return l
-
 s=input()
 l=subString(s,len(s))
 k=max([len(set(list(i))) for i in l])
